@@ -1,7 +1,7 @@
 import { Cli } from './cli';
 
 let yargs = require('yargs')
-    .usage('Usage: soketi <command> [options]')
+    .usage('Usage: uniPub <command> [options]')
     .command('start', 'Start the server.', yargs => {
         return yargs.option('config', { describe: 'The path for the config file. (optional)'});
     }, (argv) => Cli.start(argv))

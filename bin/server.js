@@ -2,4 +2,4 @@
 
 require('./../dist/cli');
 
-process.title = 'soketi-server';
+process.title = 'uniPub-server';

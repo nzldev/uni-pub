@@ -1,10 +1,10 @@
 {
-  "name": "@soketi/soketi",
-  "version": "0.0.0-dev",
+  "name": "@nzldev/uni-pub",
+  "version": "0.0.1",
   "description": "Just another simple, fast, and resilient open-source WebSockets server.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/soketi/soketi.git"
+    "url": "https://github.com/nzldev/uni-pub.git"
   },
   "main": "dist/index.js",
   "keywords": [
@@ -16,7 +16,7 @@
     "socket",
     "pusher"
   ],
-  "author": "Alex Renoki",
+  "author": "Nazrul Islam Nadeem",
   "license": "AGPL-3.0",
   "jshintConfig": {
     "esversion": 9
@@ -84,7 +84,7 @@
     "test:watch": "npm test -- --watch"
   },
   "bin": {
-    "soketi": "bin/server.js",
-    "soketi-pm2": "bin/pm2.js"
+    "uniPub": "bin/server.js",
+    "uniPub-pm2": "bin/pm2.js"
   }
 }

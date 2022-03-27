@@ -2,6 +2,6 @@
 
 const { Cli } = require('./../dist/cli/cli');
 
-process.title = 'soketi-server';
+process.title = 'uniPub-server';
 
 Cli.startWithPm2();
