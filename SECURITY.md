@@ -9,4 +9,4 @@
 
 ## Reporting a Vulnerability
 
-If you discover any security-related issues, please email alex@renoki.org instead of using the issue tracker.
+If you discover any security-related issues, please email nazrul.devs@gmail.com instead of using the issue tracker.
