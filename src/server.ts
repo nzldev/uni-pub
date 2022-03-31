@@ -63,18 +63,18 @@ export class Server {
             },
             array: {
                 apps: [
-                    {
-                        id: 'app-id',
-                        key: 'app-key',
-                        secret: 'app-secret',
-                        maxConnections: -1,
-                        enableClientMessages: false,
-                        enabled: true,
-                        maxBackendEventsPerSecond: -1,
-                        maxClientEventsPerSecond: -1,
-                        maxReadRequestsPerSecond: -1,
-                        webhooks: [],
-                    },
+                    // {
+                    //     id: 'app-id',
+                    //     key: 'app-key',
+                    //     secret: 'app-secret',
+                    //     maxConnections: -1,
+                    //     enableClientMessages: false,
+                    //     enabled: true,
+                    //     maxBackendEventsPerSecond: -1,
+                    //     maxClientEventsPerSecond: -1,
+                    //     maxReadRequestsPerSecond: -1,
+                    //     webhooks: [],
+                    // },
 
                     {
                         id: 'myunisearch-01',
